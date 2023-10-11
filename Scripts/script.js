@@ -2,16 +2,19 @@
 //
 
 
-//Se carga el contenido 
+//Se carga el documento HTML
 document.addEventListener("DOMContentLoaded", () => {
 
+    //Se definen constantes para almacenar referencias a elementos HTML con IDs específicos
     const calcularBoton = document.getElementById("calcular");
     const contenedorresultado = document.getElementById("resultado");
     const contenedorresultado2 = document.getElementById("resultado2");
     const contenedorresultado3 = document.getElementById("resultado3");
 
-    //Se pasan los valores de los inputs a las variables
+    //Se agrega un "escuchador de eventos" al botón con el ID "calcular". Este escuchador está configurado para responder al evento "click" en el botón.
     calcularBoton.addEventListener("click", () => {
+
+    //Se obtienen los valores ingresados por el usuario desde dos campos de entrada de texto con los IDs "lenght" (longitud) y "width" (ancho). Estos valores se convierten a números utilizando ParseFloat
         const lenght = parseFloat(document.getElementById("lenght").value);
         const width = parseFloat(document.getElementById("width").value);
 
