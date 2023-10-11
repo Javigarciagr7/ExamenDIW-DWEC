@@ -1,6 +1,7 @@
 // JAVIER GARCÍA RODRÍGUEZ
 //
 
+
 //Se carga el contenido 
 document.addEventListener("DOMContentLoaded", () => {
 
