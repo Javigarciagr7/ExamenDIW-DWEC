@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             contenedorresultado3.innerHTML = `La Diagonal del rectángulo: ${diagonal.toFixed(2)}`;
 
         //En caso de que los valores introducidos no sean validos saltará el siguiente mensaje
-        } else{
+        } else {
             contenedorresultado.innerHTML = `Introduzca datos validos o rellene los campos`;
             contenedorresultado2.innerHTML = ``;
             contenedorresultado3.innerHTML = ``;
