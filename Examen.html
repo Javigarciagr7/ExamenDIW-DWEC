@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <!--Enlace con los styles-->
+    <link rel="stylesheet" href="Styles/style.css">
+    <!--Enlace para añadir una imagen.ico-->
+    <link rel="icon" href="Assets/Tigre.ico" type="image/icon-x">
+</head>
+<body>
+    <h1>Calculadora de área,perímetro y diagonal de un rectángulo</h1>
+    <!--Contenedores con los correspondientes labels e inputs donde se introducirán los valores-->
+    <div class="contenedor">
+    <label form="lenght">Longitud:</label>
+    <input type="number" id="lenght" placeholder="Introduce aquí un valor"> <!--placeholder se utiliza para mostrar un texto dentro de nuestro input-->
+    </div>
+    <div class="contenedor2">
+    <label form="width">Ancho:</label>
+    <input type="number" id="width" placeholder="Introduce aquí un valor">
+    </div>
+    <br>
+    <button id="calcular">Calcular medidas</button>
+    <!--Contenedores que almacenan los resultados y que apareceran una vez pulsado el botón-->
+    <div id="resultado" class="resultado-contenedor"></div>
+    <div id="resultado2" class="resultado-contenedor2"></div>
+    <div id="resultado3" class="resultado-contenedor3"></div>
+    <!--Enlace para conectar el archivo javascript-->
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

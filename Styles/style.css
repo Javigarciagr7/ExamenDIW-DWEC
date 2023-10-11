@@ -1,0 +1,59 @@
+body{
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input{
+    height: 25px;
+}
+
+h1{
+    color:black;
+}
+
+.contenedor{
+    align-items: center;
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: 560px;
+}
+
+.contenedor2{
+    text-align: center;
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: 575px;
+}
+
+button{
+    background-color:blue;
+    border: none;
+    cursor: pointer;  
+    color: white;  
+    font-family: bold;
+    width: 145px;
+    height: 25px;
+}
+
+.resultado-contenedor{
+    margin-top: 20px;
+    font-family: bold;
+    font-size: 20px;
+}
+
+.resultado-contenedor2{
+    font-family: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.resultado-contenedor3{
+    font-family: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
